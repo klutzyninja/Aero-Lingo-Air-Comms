@@ -1,7 +1,7 @@
 {
-  "name": "Airline Communications Flashcards",
-  "short_name": "AirlineComms",
-  "description": "Master Airline Aviation Communication With Interactive Learning",
+  "name": "English Airline Comms",
+  "short_name": "EnglishAirlineComms",
+  "description": "Master Airline Comms With Interactive Learning",
   "start_url": "./index.html",
   "display": "standalone",
   "background_color": "#707070",
