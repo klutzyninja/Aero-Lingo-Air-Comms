@@ -5,7 +5,6 @@ const urlsToCache = [
   './main/manifest.json',
   './main/icon-192.png',
   './main/icon-512.png',
-  './main/PilotDeclaringanEmergency.mp4',
   './main/Video.mp4',
   './main/audio.mp4'
 ];
