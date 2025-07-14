@@ -1812,4 +1812,10 @@ function updateMarkedCount() {
         markedCountElement.textContent = `${count} marked`;
     }
 }
-
+if ('serviceWorker' in navigator) {
+  window.addEventListener('load', () => {
+    navigator.serviceWorker.register('main/service-worker.js')
+      .then(reg => console.log('Service Worker registered'))
+      .catch(err => console.error('Service Worker registration failed:', err));
+  });
+}
