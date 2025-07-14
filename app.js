@@ -1734,18 +1734,18 @@ setTimeout(() => {
     
     // Add demo audio
     const demoAudio = new Audio();
-    demoAudio.src = "./PilotDeclaringanEmergency.mp4";
+    demoAudio.src = "./video.mp4";
     customAudioData[emergencyTerm] = {
         audio: demoAudio,
         url: demoAudio.src,
-        fileName: "PilotDeclaringanEmergency.mp4",
+        fileName: "video.mp4",
         isSaved: true
     };
     
     // Add demo video
     customVideoData[emergencyTerm] = {
-        url: "./PilotDeclaringanEmergency.mp4",
-        name: "PilotDeclaringanEmergency.mp4",
+        url: "./video.mp4",
+        name: "video.mp4",
         isSaved: true
     };
 }, 1000);
