@@ -6,7 +6,7 @@ const urlsToCache = [
   './main/icon-192.png',
   './main/icon-512.png',
   './main/Video.mp4',
-  './main/audio.mp4'
+  './main/Audio.mp4'
 ];
 
 // Install event - cache all resources including media
