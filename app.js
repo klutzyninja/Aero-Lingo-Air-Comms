@@ -1734,22 +1734,21 @@ setTimeout(() => {
     
     // Add demo audio
     const demoAudio = new Audio();
-    demoAudio.src = "./video.mp4";
+    demoAudio.src = "./main/Audio.mp4"; // <-- Capital A, path matches sw.js
     customAudioData[emergencyTerm] = {
         audio: demoAudio,
         url: demoAudio.src,
-        fileName: "video.mp4",
+        fileName: "Audio.mp4",          // <-- Capital A
         isSaved: true
     };
     
     // Add demo video
     customVideoData[emergencyTerm] = {
-        url: "./video.mp4",
-        name: "video.mp4",
+        url: "./main/Video.mp4",        // <-- Capital V
+        name: "Video.mp4",              // <-- Capital V
         isSaved: true
     };
 }, 1000);
-
 
 
 // Toggle review mark for current term
