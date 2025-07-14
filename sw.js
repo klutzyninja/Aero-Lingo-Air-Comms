@@ -1,13 +1,13 @@
 const CACHE_NAME = 'airline-comms-v2';
 const urlsToCache = [
-  './main/',
   './main/index.html',
   './main/app.js',
   './main/manifest.json',
   './main/icon-192.png',
   './main/icon-512.png',
   './main/PilotDeclaringanEmergency.mp4',
-  './main/Video.mp4'
+  './main/Video.mp4',
+  './main/audio.mp4'
 ];
 
 // Install event - cache all resources including media
